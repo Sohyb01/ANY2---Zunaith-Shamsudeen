@@ -27,6 +27,7 @@ export default function Home() {
       {/* <!-- Portfolio (Projects?) --> */}
       <ProjectsSection />
 
+      {/* Contact (Footer) */}
       <ContactSection />
     </main>
   );

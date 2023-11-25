@@ -2,10 +2,14 @@ import React from "react";
 import Image from "next/image";
 import { introData } from "../lib/data";
 import CVButton from "./CVButton";
+import ContactModal from "./ContactModal";
 
 const IntroSection = () => {
   return (
-    <section className="section__styles pt-8 pb-[72px] max-w-[680px]">
+    <section
+      id="intro"
+      className="section__styles pt-8 pb-[72px] max-w-[680px]"
+    >
       <div className="text-center flex flex-col items-center justify-center gap-4">
         {/* Image and Name */}
         <div className="flex flex-col items-center gap gap-4">
@@ -34,12 +38,13 @@ const IntroSection = () => {
             {/* CTA Buttons */}
             <div className="flex items-center justify-center gap-8">
               <CVButton />
-              <a
+              <ContactModal />
+              {/* <a
                 href="#contact"
                 className="px-6 py-3 border-slate-800 border-[2px] text-slate-800 text-base rounded-md hover:bg-slate-800 hover:text-white transition ease-linear duration-100"
               >
                 Contact Me
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
