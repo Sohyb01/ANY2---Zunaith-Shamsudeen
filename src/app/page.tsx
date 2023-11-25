@@ -5,6 +5,13 @@ import EducationSection from "./components/EducationSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import ContactSection from "./components/ContactSection";
+import {
+  educationData,
+  experienceData,
+  projectsData,
+  skillsData,
+  testimonialsData,
+} from "./lib/data";
 
 export default function Home() {
   return (
@@ -13,19 +20,19 @@ export default function Home() {
       <IntroSection />
 
       {/* <!-- Education --> */}
-      <EducationSection />
+      {educationData.length && <EducationSection />}
 
       {/* <!-- Experience (and Activities) --> */}
-      <ExperienceSection />
+      {experienceData.length && <ExperienceSection />}
 
       {/* <!-- Testimonials / Awards / Recommendations --> */}
-      <TestimonialsSection />
+      {testimonialsData.length && <TestimonialsSection />}
 
       {/* Skills Section */}
-      <SkillsSection />
+      {skillsData.length && <SkillsSection />}
 
       {/* <!-- Portfolio (Projects?) --> */}
-      <ProjectsSection />
+      {projectsData.length && <ProjectsSection />}
 
       {/* Contact (Footer) */}
       <ContactSection />
