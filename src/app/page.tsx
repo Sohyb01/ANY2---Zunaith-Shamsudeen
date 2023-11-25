@@ -3,15 +3,14 @@ import ExperienceSection from "./components/ExperienceSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import EducationSection from "./components/EducationSection";
 import ProjectsSection from "./components/ProjectsSection";
+import SkillsSection from "./components/SkillsSection";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col items-center">
       {/* <!-- Introduction Section --> */}
       <IntroSection />
-
-      {/* <!-- Portfolio (Projects?) --> */}
-      <ProjectsSection />
 
       {/* <!-- Education --> */}
       <EducationSection />
@@ -19,8 +18,16 @@ export default function Home() {
       {/* <!-- Experience (and Activities) --> */}
       <ExperienceSection />
 
-      {/* <!-- Testimonials (Recommendations?) --> */}
+      {/* <!-- Testimonials / Awards / Recommendations --> */}
       <TestimonialsSection />
+
+      {/* Skills Section */}
+      <SkillsSection />
+
+      {/* <!-- Portfolio (Projects?) --> */}
+      <ProjectsSection />
+
+      <ContactSection />
     </main>
   );
 }

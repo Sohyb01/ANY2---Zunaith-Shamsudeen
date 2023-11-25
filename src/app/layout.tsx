@@ -1,9 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 import Navbar from "./components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const futura = localFont({
+  src: [
+    {
+      path: "../../public/futura/Futura Std Book.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/futura/Futura Std Heavy.ttf",
+      weight: "700",
+      style: "bold",
+    },
+  ],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-100`}>
+      <body className={`${futura.className} bg-white`}>
         <Navbar />
         {children}
       </body>
