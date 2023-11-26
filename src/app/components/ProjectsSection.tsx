@@ -3,7 +3,7 @@ import { projectsData } from "../lib/data";
 
 const ProjectsSection = () => {
   return (
-    <section className="section__styles py-[72px]">
+    <section className="section__styles pt-[72px] pb-[144px]">
       <div className="max-w-container flex flex-col gap-6">
         {/* Title and Subheader */}
         <div className="flex flex-col gap-1 text-start">
