@@ -19,7 +19,7 @@ const EducationSection = () => {
         {educationData.map((education, index) => (
           <div
             key={index}
-            className="bg-white p-4 rounded-[6px] shadow-lg flex flex-col gap-2"
+            className="bg-white p-4 rounded-[6px] shadow-lg flex flex-col gap-2 border-b-[4px] border-blue-800"
           >
             <h4 className="text-slate-700 font-bold">{education.title} </h4>
 

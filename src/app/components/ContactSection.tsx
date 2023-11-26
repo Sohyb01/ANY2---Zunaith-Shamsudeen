@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ContactSection = () => {
   return (
-    <section className="section__styles py-[32px] flex text-center bg-slate-800 flex-col gap-6">
+    <section className="section__styles pt-[72px] pb-8 flex text-center bg-slate-800 flex-col gap-6">
       {/* Title and Subheader */}
       <h1 className="text-white">
         Feel free to contact me at {emailAddress} or through social media

@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="bg-white p-4 rounded-[6px] shadow-lg flex flex-col gap-2"
+            className="bg-white p-4 rounded-[6px] shadow-lg flex flex-col gap-2 border-b-[4px] border-orange-300"
           >
             <p className="text-slate-700 font-bold">{testimonial.name}</p>
             <p className="font-normal text-slate-500">

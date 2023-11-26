@@ -16,7 +16,7 @@ const SkillsSection = () => {
       <div className="flex flex-wrap gap-2">
         {skillsData.map((skill) => (
           <>
-            <div className="grid place-items center text-center p-2 bg-slate-200 text-slate-800 font-bold rounded-[6px]">
+            <div className="grid place-items center text-center p-2 bg-slate-200 text-slate-800 font-bold rounded-[6px] border-b-[4px] border-cyan-600">
               {skill}
             </div>
           </>
