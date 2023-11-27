@@ -8,7 +8,10 @@ const ContactSection = () => {
       <div className="max-w-container flex flex-col gap-6 text-center">
         {/* Title and Subheader */}
         <h1 className="text-white">
-          Feel free to contact me at {emailAddress} or through social media
+          Feel free to contact me at {emailAddress}{" "}
+          {contactLinks.some(
+            (obj) => obj.hasOwnProperty("url") && obj.url !== null
+          ) && "or through social media"}
         </h1>
         {contactLinks.length && (
           <div className="flex w-full justify-center gap-8">
