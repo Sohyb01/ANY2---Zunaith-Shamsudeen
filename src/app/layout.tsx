@@ -20,7 +20,7 @@ const futura = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Name Here",
+  title: "Zunaith Shamsudeen",
   description: "Personal Website",
 };
 

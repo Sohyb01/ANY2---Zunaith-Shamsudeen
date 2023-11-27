@@ -1,8 +1,8 @@
 export const introData = {
-  name: "FIRSTNAME LASTNAME",
-  title: "Your Title Here",
+  name: "Zunaith Shamsudeen",
+  title: "Cyber Security Specialist",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius iste rerum magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit velit voluptatem?",
+    "Hello! I am Cyber Support / Security Specialist and a Business Analyst with a Bachelors of Business Administration in Cyber Security, currently working at Namauu Technological & Industrial.",
   imageUrl: "/pfp.png", // Relative or online URL
 };
 
@@ -23,34 +23,66 @@ export const projectsData = [
 
 export const educationData = [
   {
-    title: "PLACE / CERTIFICATE",
-    date: "YYYY-YYYY",
+    title: "Bachelors of Business Administration in Cyber Security",
+    date: "DEC 2022",
     description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+      "I acquired my Bachelors Degree from The University of Texas at San Antonio.",
     url: "", // Optional URL
   },
   {
-    title: "PLACE / CERTIFICATE",
-    date: "YYYY-YYYY",
+    title:
+      "CompTIA Security+ Certification (DoD IAT Level II and IAM Level I) ",
+    date: "OCT 2022",
     description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+      "A global certification that validates the skills necessary to perform core security functions and pursue an IT security career.",
     url: "", // Optional URL
   },
   {
-    title: "PLACE / CERTIFICATE",
-    date: "YYYY-YYYY",
+    title: "Cisco ThreatHunting workshop 4.0 Certification",
+    date: "FEB 2023",
     description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+      "A workshop on threat hunting which consists of both assisted and self-guided labs to assess newfound knowledge and skills.",
     url: "", // Optional URL
   },
 ];
 
 export const experienceData = [
   {
-    title: "INSTITUTE NAME",
-    city: "CITY, COUNTRY",
-    year: "YYYY-YYYY",
-    position: "Lorem Ipsum dolor Sit Amet",
+    title: "Namauu Technological & Industrial",
+    city: "San Antonio, TX",
+    year: "APR 2023 – PRESENT",
+    position: "Cyber Support Specialist II",
+    description: [
+      "•	Worked in a dynamic DoD DevSecOps environment, collaborated with diverse professionals, including networking experts, ISSMs, and end-users, to fortify cybersecurity and protect critical systems",
+      "•	Managed third-party penetration test results based on the NIST incident response framework and coordinated with the proper end users to remediate the vulnerabilities",
+      "•	Achieved a 100% success rate in identifying and mitigating vulnerabilities, resulting in zero security breaches.	",
+      "•	Performed remote fixes at the workstation level, including software patches and upgrades, to strengthen security measures and minimize risk.",
+      "•	Reduced incident response time by 30% through automated threat detection and response mechanisms, along with the establishment of controls and procedures.",
+    ],
+  },
+  {
+    title: "PharMerica",
+    city: "Remote",
+    year: "APR 2021 – MAR 2023",
+    position: "Business Analyst",
+    description: [
+      "•	Over a span of 24 months, consistently achieved a 98% accuracy rate in data processing and analysis. Utilized various techniques, including data aggregation and statistical analysis, to extract valuable insights for clients.",
+      "•	Attained a comprehensive understanding of PCI compliance and adequately documented its application during the development stage, ensuring that the payment portal achieved PCI compliance, free from any bugs or issues.",
+      "•	Established and maintained systematic, cross-referenced intelligence records and files, facilitating a 25% improvement in information retrieval efficiency.",
+      "•	Formulated strategic business project plans with precise timelines, consistently meeting or surpassing deadlines. Developed project schedules guided by metrics and reporting, ensuring timely and efficient project completion.",
+    ],
+  },
+  {
+    title: "Y&L Consulting",
+    city: "San Antonio, TX",
+    year: "JUN 2018 – SEP 2018",
+    position: "Cyber Security Intern",
+    description: [
+      "•	Provided expertise for security systems, industry best practices, and procedures to protect the enterprise network infrastructure and information assets from intrusion, virus and malware attacks, and unauthorized access.",
+      "•	Documented information security procedures through the use of flowcharts/schematics/process maps.",
+      "•	Identified potential IT Infrastructure information security problems, obstacles, and risks.",
+      "•	Reviewed existing infrastructure systems and services in compliance with security standards.",
+    ],
   },
 ];
 
@@ -73,18 +105,21 @@ export const testimonialsData = [
 ];
 
 export const skillsData = [
-  "MySQL",
-  "Data Analysis",
+  "Cisco’s Advanced Malware Protection (AMP)",
+  "Umbrella",
+  "Threat response and Orchestration",
+  "Rapid7 IDR",
+  "Rapid7 Nexpose",
+  "CrowdStrike Falcon Sensor",
+  "ManageEngine Endpoint Central",
+  "Java",
+  "Bash",
   "Python",
-  "Javascript",
-  "HTML",
-  "Machine Learning",
-  "Content Editing",
-  "Writing",
-  "Sales",
+  "English (Language)",
+  "Tamil (Language)",
 ];
 
-export const emailAddress = "example@gmail.com";
+export const emailAddress = "zunaiths@gmail.com";
 
 export const contactLinks = [
   {
@@ -97,7 +132,7 @@ export const contactLinks = [
     // LinkedIn
     iconPath: "/linkedin.svg",
     // Add the URLS Below and uncomment!
-    url: null,
+    url: "https://www.linkedin.com/in/zunaith-shamsudeen/",
   },
   {
     // Github

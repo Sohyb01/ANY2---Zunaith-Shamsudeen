@@ -26,13 +26,13 @@ export default function Home() {
       {experienceData.length && <ExperienceSection />}
 
       {/* <!-- Testimonials / Awards / Recommendations --> */}
-      {testimonialsData.length && <TestimonialsSection />}
+      {/* {testimonialsData.length && <TestimonialsSection />} */}
 
       {/* Skills Section */}
       {skillsData.length && <SkillsSection />}
 
       {/* <!-- Portfolio (Projects?) --> */}
-      {projectsData.length && <ProjectsSection />}
+      {/* {projectsData.length && <ProjectsSection />} */}
 
       {/* Contact (Footer) */}
       <ContactSection />

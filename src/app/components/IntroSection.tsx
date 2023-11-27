@@ -8,7 +8,7 @@ const IntroSection = () => {
   return (
     <section
       id="intro"
-      className="section__styles pt-8 pb-[72px] max-w-[680px]"
+      className="section__styles pt-8 pb-[72px] max-w-[780px]"
     >
       <div className="text-center flex flex-col items-center justify-center gap-4">
         {/* Image and Name */}
