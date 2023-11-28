@@ -2,7 +2,7 @@ export const introData = {
   name: "Zunaith Shamsudeen",
   title: "Cyber Security Specialist",
   description:
-    "Hello! I am Cyber Support / Security Specialist and a Business Analyst with a Bachelors of Business Administration in Cyber Security, currently working at Namauu Technological & Industrial.",
+    "Hello! I am Cyber Security Specialist & Enthusiast with a Bachelors of Business Administration in Cyber Security, currently working at Namauu Technological & Industrial.",
   imageUrl: "/pfp.png", // Relative or online URL
 };
 
